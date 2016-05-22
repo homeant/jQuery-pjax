@@ -19,8 +19,13 @@
            /  | |
      jgs  |___\_.\_
           `-"--'---'
+          
 [pjax初始版本](https://github.com/defunkt/jquery-pjax)
-此处版本主要做了如下改动：
+
+
+##此处版本主要做了如下改动：
+
+
 1. 加入loadAjaxScript方法，改方法可以动态获取js,并执行
 ```
 var scripts = ["js/container.1.js"];
