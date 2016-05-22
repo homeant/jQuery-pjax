@@ -1,0 +1,19 @@
+
+<title>我是内容</title>
+<script type="text/javascript" src="script/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="script/pjax/jquery.pjax.js" ></script>
+<script type="text/javascript" src="script/container.js"></script>
+<div id="container">
+	我是内容
+	<script type="text/javascript">
+		var scripts = ["script/container.1.js"];
+		$.pjax.loadAjaxScript(scripts,function(){
+			$(function(){
+				$.app.msg("我适合做插件");
+				alert("我最后加载");
+			});
+		});
+	</script>
+</div>
+
+
