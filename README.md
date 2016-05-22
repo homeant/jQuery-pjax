@@ -27,7 +27,7 @@
 
 
 1. 加入loadAjaxScript方法，改方法可以动态获取js,并执行
-``` javascript
+```
 var scripts = ["js/container.1.js"];
 
 $.pjax.loadAjaxScript(scripts,function(){
@@ -45,7 +45,7 @@ $.pjax.loadAjaxScript(scripts,function(){
 
 2. 在原先基础上加入监听，保证用户强刷浏览器页面直接跳转至pjax页面，该版本不影响原先pjax的使用
 
-``` javascript
+```
 $(document).pjax("a", "#pjax-container", {
 
 	//maxCacheLength: 0, //正式环境，请修改
