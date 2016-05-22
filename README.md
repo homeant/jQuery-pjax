@@ -79,6 +79,6 @@ $(document).pjax("a", "#pjax-container", {
 	//defaultUrl: 'page/container3'//加载首页默认加载的页面
 	
 });
-```
 
+```
 3. 去除原先pjax中的form提交。
