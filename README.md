@@ -43,7 +43,7 @@ $.pjax.loadAjaxScript(scripts,function(){
 });
 ```
 
-2. 在原先基础上加入监听，保证用户强刷浏览器页面直接跳转至pjax页面，该版本不影响原先pjax的使用
+2. 在原先基础上加入监听，保证用户强刷浏览器,页面不直接跳转至pjax页面，该版本不影响原先pjax的使用
 
 ```
 $(document).pjax("a", "#pjax-container", {
